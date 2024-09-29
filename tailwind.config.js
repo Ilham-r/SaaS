@@ -8,8 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        grayText: "#a1a4b5",
+        navText: "#606169",
+        bgColor: "#EAEEFE",
+      },
+      fontSize: {
+        midText: "1.1rem",
+        bigText: "1.4rem",
+      },
+      boxShadow: {
+        custom: "0px 7px 24px  rgba(27, 27, 27, 0.08) ",
       },
     },
   },
