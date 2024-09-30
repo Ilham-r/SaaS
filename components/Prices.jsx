@@ -39,9 +39,9 @@ const Card = ({ type, price, list, colored, btext }) => (
   >
     <div className="flex w-full items-center justify-between">
       <p className="h5 text-grayText">{type}</p>{" "}
-      <p className="tag bg-gradient-to-r px-4  items-center border-[1px] border-grayText rounded-xl gap-3 from-[#dd7dff] via-[#E1CD86] via-[#8BCB92]  to-[#3BFFFF] bg-clip-text text-transparent">
-        {colored ? "Most popular" : ""}
-      </p>
+     
+        {colored ? <p className="tag bg-gradient-to-r px-4  items-center border-[1px] border-grayText rounded-xl gap-3 from-[#dd7dff] via-[#E1CD86] via-[#8BCB92]  to-[#3BFFFF] bg-clip-text text-transparent">"Most popular"</p>  : ""}
+      
     </div>
     <p className="h2">
       {price}$<span className="body-medium text-grayText">/month</span>
