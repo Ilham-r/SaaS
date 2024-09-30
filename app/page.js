@@ -1,4 +1,5 @@
 import EverythingUneed from "@/components/EverythingUneed";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Prices from "@/components/Prices";
@@ -16,6 +17,7 @@ export default function Home() {
       <Prices />
       <Testimonials />
       <SignUp />
+      <Footer />
     </main>
   );
 }

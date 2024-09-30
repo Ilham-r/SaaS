@@ -21,18 +21,18 @@ const Header = () => {
   console.log(isOpen);
 
   return (
-    <header className="w-full fixed z-20 p-4">
+    <header className="w-full absolute z-20 p-4">
       <div className=" flex items-center justify-between">
         <div className="gradient cursor-pointer ">
           <Image src="/images/logo.png" width={40} height={40} alt="saas" />
         </div>
         <div
-          className={`max-lg:fixed max-lg:top-0 max-lg:bg-bgColor  max-lg:left-0 max-lg:w-full ${
-            isOpen ? "max-lg:disaply" : "max-lg:hidden"
+          className={`max-md:fixed max-md:top-0 max-md:bg-bgColor  max-md:left-0 max-md:w-full ${
+            isOpen ? "max-md:disaply" : "max-md:hidden"
           }`}
         >
-          <div className="w-full max-lg:items-start max-lg:flex max-lg:flex-col max-lg:min-h-screen max-lg:justify-center  max-lg:p-6 max-lg:overflow-hidden max-md:px-4 sidebar-before">
-            <ul className="flex items-center z-[1] gap-6 max-lg:block ">
+          <div className="w-full max-md:items-start max-md:flex max-md:flex-col max-md:min-h-screen max-md:justify-center  max-md:p-6 max-md:overflow-hidden max-md:px-4 sidebar-before">
+            <ul className="flex items-center z-[1] gap-6 max-md:block ">
               <li className="nav-li">
                 <NavLink text="About" to="hero" />
               </li>
@@ -46,7 +46,7 @@ const Header = () => {
                 <NavLink text="Updates" to="prices" />
               </li>
               <li className="nav-li">
-                <NavLink text=" Help" to="hero" />
+                <NavLink text=" Help" to="signUp" />
               </li>
               <li className="nav-li">
                 <Button title="Get for free" />
@@ -55,7 +55,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          className=" lg:hidden cursor-pointer z-20"
+          className=" md:hidden cursor-pointer z-20"
           onClick={() => setIsOpen((prevState) => !prevState)}
         >
           <Image

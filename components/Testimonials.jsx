@@ -28,7 +28,7 @@ const Testimonials = () => {
     <section id="offers" className="w-full flex justify-center pb-24">
       <div className="w-full flex p-4 items-center justify-center flex-col pt-20">
         <div className="flex tag px-4  items-center border-[1px] border-grayText rounded-xl gap-3">
-          <p> Everything you need</p>
+          <p> Testimonials</p>
         </div>
         <p className="h2 text-center">What our users say</p>
         <div className=" flew columns-3   pt-20 px-28 gap-7 max-md:columns-1">

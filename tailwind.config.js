@@ -11,6 +11,7 @@ module.exports = {
         grayText: "#a1a4b5",
         navText: "#606169",
         bgColor: "#EAEEFE",
+        fColor: "#808080",
       },
       fontSize: {
         midText: "1.1rem",

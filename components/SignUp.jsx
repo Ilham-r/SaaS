@@ -4,7 +4,10 @@ import Button from "./Button";
 
 const SignUp = () => {
   return (
-    <section className="w-full flex product-bg justify-center items-center">
+    <section
+      id="signUp"
+      className="w-full flex product-bg justify-center items-center"
+    >
       <div className=" w-full flex relative justify-center items-center p-48 max-md:px-16">
         <Image
           className="absolute float right-16 top-1/3 max-lg:w-[340px] max-lg:h-[340px] max-lg:right-[-12%] max-md:hidden"

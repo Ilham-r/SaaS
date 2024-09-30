@@ -64,7 +64,7 @@ body {
   }
 
   .sidebar-before {
-    @apply max-lg:before:absolute max-lg:before:-right-64 max-lg:before:top-[50%] max-lg:before:h-[740px] max-lg:before:w-[852px] max-lg:before:bg-[#183ec2] max-lg:before:blur-[200px] max-lg:before:content-[''];
+    @apply max-md:before:absolute max-md:before:-right-64 max-md:before:top-[50%] max-md:before:h-[740px] max-md:before:w-[852px] max-md:before:bg-[#183ec2] max-md:before:blur-[200px] max-md:before:content-[''];
     position: relative; 
   }
 
