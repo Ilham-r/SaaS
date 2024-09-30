@@ -24,7 +24,7 @@ const EverythingUneed = () => {
             and quickly.
           </p>
         </div>
-        <div className="w-full flex py-14 px-28 max-lg:p-14 gap-8 max-lg:flex-wrap">
+        <div className="w-full flex py-14 px-28 max-lg:p-14 gap-8 max-lg:flex-col">
           <Card
             image="./images/helix.svg"
             title="Integration ecosystem"
