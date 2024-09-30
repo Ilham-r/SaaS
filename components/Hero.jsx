@@ -20,27 +20,32 @@ const Hero = () => {
           <div className="flex items-center ">
             <Button title="Get for free" />
             <p className="body-bold ml-4">learn more</p>
-            <Image src="/images/arrow.svg" width={25} height={25} alt="arrow" />
+            <Image
+              src="./images/arrow.svg"
+              width={25}
+              height={25}
+              alt="arrow"
+            />
           </div>
         </div>
         <div className="relative flex-1 max-lg:right-[-25%] max-md:right-0 ">
           <Image
             className=" absolute float left-6  max-lg:left-[-120px] max-md:hidden "
-            src="/images/cylinder.png"
+            src="./images/cylinder.png"
             width={170}
             height={170}
             alt="hero-image"
           />
           <Image
             className=" absolute right-2 max-md:right-12  max-lg:w-[500px] max-lg:h-[500px] max-md:w-[320px] max-md:h-[320px] rotate"
-            src="/images/Visual.png"
+            src="./images/Visual.png"
             width={500}
             height={500}
             alt="hero-image"
           />
           <Image
             className=" absolute right-0 float bottom-[-20px] max-md:hidden"
-            src="/images/half-torus.png"
+            src="./images/half-torus.png"
             width={180}
             height={180}
             alt="hero-image"

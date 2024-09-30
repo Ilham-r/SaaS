@@ -42,21 +42,21 @@ const Product = () => {
         <div className="w-full relative z-10">
           <Image
             className=" absolute float right-[-20px] top-[17%] max-md:hidden max-lg:w-40 "
-            src="/images/pyramid.png"
+            src="./images/pyramid.png"
             width={200}
             height={200}
             alt="product image"
           />
 
           <Image
-            src="/images/product.png"
+            src="./images/product.png"
             width={1250}
             height={1250}
             alt="product image"
           />
           <Image
             className=" absolute float left-[-20px] top-1/2 max-lg:w-40 max-md:hidden"
-            src="/images/torus.png"
+            src="./images/torus.png"
             width={180}
             height={180}
             alt="product image"

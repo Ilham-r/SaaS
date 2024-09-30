@@ -8,7 +8,7 @@ const SmallCard = () => (
     </p>
     <div className="flex gap-4 items-center ">
       <Image
-        src="/images/jane.png"
+        src="./images/jane.png"
         width={42}
         height={42}
         className="rounded-full"

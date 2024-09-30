@@ -17,7 +17,12 @@ const Footer = () => {
         <div className="flex flex-col justify-between  items-start w-1/3 pr-32 max-md:w-full max-md:gap-8 max-md:mb-20 ">
           <div className="flex flex-col justify-center items-start gap-5">
             <div className="gradient z-10 cursor-pointer  ">
-              <Image src="/images/logo.png" width={40} height={40} alt="saas" />
+              <Image
+                src="./images/logo.png"
+                width={40}
+                height={40}
+                alt="saas"
+              />
             </div>
             <p className="body-small text-[#808080]">
               Effortlessly turn your ideas into a fully functional, responsive,

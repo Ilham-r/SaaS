@@ -26,13 +26,13 @@ const EverythingUneed = () => {
         </div>
         <div className="w-full flex py-14 px-28 max-lg:p-14 gap-8 max-lg:flex-wrap">
           <Card
-            image="/images/helix.svg"
+            image="./images/helix.svg"
             title="Integration ecosystem"
             text="Enhance your productivity by connecting with your favorite tools, keeping all your
  essentials in one place."
           />
           <Card
-            image="/images/cube.png"
+            image="./images/cube.png"
             title="Goal setting and tracking"
             text=" Define and track your goals, breaking down objectives into achievable tasks to keep your targets in sight."
           />
